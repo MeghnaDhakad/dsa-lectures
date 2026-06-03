@@ -1,0 +1,27 @@
+goal 1: AMCAT Exam
+goal 2: Internship
+goal 3: Placement
+
+
+AMCAT:
+coding -- maths + recurssion + bit +  array + seraching + linked list + maybe(stack, debugging)
+
+Exam 1: (Aug)
+aptitute , ans core
+
+from aug to nov --- at around 5 one hour class, half hour dsa (not daily)
+
+Exam 2: (Nov)
+Exam 1 + code 2 questions + 5 debugging questions
+
+youtube -- carrier ride (total 55 vid  and atleast 5 in 1 week)(apptitude- 32 vid, start with these)
+
+15 june se test , syllabus will be given 1 week in advance
+
+MAIN-- dsa and debugging
+
+revise oops(oops is imp for interview, if i say i have learned dsa in java they will ask)
+
+*LEARN HOW TO PUSH ON GIT*
+
+if question asked to be done on leetcode--DO IT!!!!
