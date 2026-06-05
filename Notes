@@ -1,2 +1,11 @@
 04/06/2026
-Time-Space tradeoff -- when you improve time complexity we use more space to significantly improve time complexity.
+Time-Space tradeoff 
+    -- when you improve time complexity we use more space to significantly improve time complexity.
+
+Trailing Zeros -- they come from 2 and 5s 
+    Keep dividing by powers of 5 until the power exceeds n.
+    and sum their answers, that will be the number of trailing zeros.
+
+Euclidean Theorem 
+    -- LCM(a, b) = [(a x b)/HCF(a,b)]
+
