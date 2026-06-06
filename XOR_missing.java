@@ -2,10 +2,10 @@ import java.util.*;
 public class XOR_missing {
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
-        System.out.println("enter number of elements");
+        System.out.println("enter highest number");
         int n = sc.nextInt();
-        System.out.println("enter "+ n + " elements");
-        int[] nums = new int[n-1];
+        System.out.println("enter "+ n + " elements in the range [0,"+n +"]");
+        int[] nums = new int[n];
         for (int i = 0;i<n;i++){
             nums[i] = sc.nextInt();
         }
@@ -16,7 +16,7 @@ public class XOR_missing {
         count = count ^ full[i];
        }
        int count2 = 0;
-       for (int i = 0;i<nums.length;i++){
+       for (int i = 0;i<n;i++){
         count2 = count2 ^ nums[i];
        }
        int missing = count ^ count2;
