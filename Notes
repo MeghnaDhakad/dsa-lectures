@@ -9,3 +9,9 @@ Trailing Zeros -- they come from 2 and 5s
 Euclidean Theorem 
     -- LCM(a, b) = [(a x b)/HCF(a,b)]
 
+BIT MANULPATION:
+    write their table and observations
+    XOR -- if a array is give with consicutive numbers but one number is missing, eg 1^3^4^5, we XOR this with 1^2^3^4^5, to find 2 (only when one number is missing, does not work for multiple missing values)
+
+
+

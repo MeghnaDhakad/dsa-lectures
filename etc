@@ -1,0 +1,6 @@
+//find if kth bit is set or unset (count)
+//erite given number in binary and then find the kth bit
+//find k(max) from n<log2(k)
+//start indexing from 1
+//when there is one '1' in a number
+//left shift
