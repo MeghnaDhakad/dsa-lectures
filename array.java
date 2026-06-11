@@ -13,7 +13,7 @@ public class array {
         list.remove(1 ); //both index and value work, but index is prioritized, for value use -- valueOf
 
         Collections.sort(list); //TimSort -- merge+insertion
-        // System.out.println(search(list, 3)); -- figure out search
+        System.out.println(list.contains(2)); 
         Scanner sc = new Scanner(System.in);
         for(int i = 0;i<3;i++){
             list.add(sc.nextInt());
