@@ -9,15 +9,15 @@ public class arr {
         }
         int mid = list.get(3);
         System.out.println("mid" + mid);
-        sc.close();
         Collections.sort(list);
         System.out.println("sorted list" + list);
         
-        System.out.println("enter elemnt to find:")
+        System.out.println("enter elemnt to find:");
         int a = sc.nextInt();
-        if (arr.contains(a)) {
+        if (list.contains(a)) {
             System.out.println("Element found");
         } else {
             System.out.println("Element not found");
     }
-}
+    sc.close();
+}}
