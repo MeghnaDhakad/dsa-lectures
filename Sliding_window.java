@@ -14,8 +14,11 @@ public class Sliding_window{
         int n = sc.nextInt();
         int[] arr = new int[n];
 
-        if(n<3){
-            System.out.println("enter more than 3 elements");
+        System.out.println("enter subarray size:");
+        int k = sc.nextInt();
+
+        if(n<k){
+            System.out.println("enter more than" + k+ " elements");
         }
         else{
 
@@ -38,7 +41,7 @@ public class Sliding_window{
             }
         }
         if(ans.size() < 2){
-            System.out.println("no such subarray of size 3 exist");
+            System.out.println("no such subarray exist");
         }
         sc.close();
     }}
